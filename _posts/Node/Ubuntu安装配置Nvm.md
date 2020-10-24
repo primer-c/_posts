@@ -1,0 +1,120 @@
+---
+date: October 24 2020
+title: Ubuntu安装配置Nvm
+comments: true
+---
+
+#### 1. Node 的一种版本管理器，它可以管理多版本 Node 以及 npm
+
+#### 2. 安装
+
+- 下载
+
+  [[nvm 的仓库地址]](https://github.com/creationix/nvm)
+
+  ![nvm github repository](https://s1.ax1x.com/2020/10/24/BVoBHs.png)
+
+- 克隆
+
+  终端 Home 目录执行如下命令，克隆 nvm：
+
+  ```bash
+  cd ~/
+  mkdir .nvm
+  git clone https://github.com/creationix/nvm .nvm
+  ```
+
+- 克隆示意图
+
+  ![nvm clone](https://s1.ax1x.com/2020/10/24/BVT5QS.png)
+
+- 安装 nvm
+
+  ```bash
+  bash install.bash
+  ```
+
+- 安装示意图
+
+  ![install nvm](https://s1.ax1x.com/2020/10/24/BV7kJx.png)
+
+- 测试安装版本: 关闭终端，重启终端
+
+  ```bash
+  nvm -v
+  ```
+
+#### 3. 使用
+
+- 查看 Node 远程仓库版本号: 耐心等待
+
+  ```bash
+  nvm ls-remote
+  ```
+
+2. 安装 Node
+
+- 安装 Node 14.14.0
+
+  ```bash
+  nvm install 14.14.0
+  nvm install 13.0.0
+  ```
+
+3. 查看 Node 版本号
+
+- 查看本地安装不同版本 Node
+
+  ```bash
+  nvm list
+  ```
+
+- 查看当前使用版本号
+
+  ```bash
+  nvm current
+  ```
+
+4. 使用 Node
+
+- 不同版本 Node 切换
+
+  ```bash
+  nvm use 14.14.0
+  ```
+
+5. 卸载 Node
+
+- 卸载不需要版本的 Node
+
+  ```bash
+  nvm uninstall node-version
+  ```
+
+- 下载当前版本 Node
+
+  ```bash
+  nvm deactivate
+  nvm uninstall node_version
+  ```
+
+6. 切换使用的 Node
+
+- 选择使用的版本
+
+  ```bash
+  nvm use 14.14.0
+  ```
+
+#### 4. npm 配置镜像源
+
+- npm 配置镜像源
+  ![npm配置镜像源](https://s1.ax1x.com/2020/10/24/BZCbT0.png)
+
+#### 5. 参考文档
+
+[[Linux]]()
+
+#### 6. 联系方式
+
+[[Email]](yuanmin8888@outlook.com)
