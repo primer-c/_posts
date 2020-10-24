@@ -10,12 +10,12 @@ comments: true
 - git add README.md
 - git commit -m "first commit"
 - git branch -M main
-- git remote add origin git@github.com:web-oyster/blog_web.git
+- git remote add origin git@github.com:web-oyster/blog_for_web-master.git
 - git push -u origin main
 
 #### 2. push an existing repository from the command line
 
-- git remote add origin git@github.com:web-oyster/blog_web.git
+- git remote add origin git@github.com:web-oyster/blog_for_web-master.git
 - git branch -M main
 - git push -u origin main
 
