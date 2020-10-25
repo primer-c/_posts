@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 title: Ajax-Github仓库项目清单
-categories: Github仓库项目清单
+categories: Github
 commits: true
 ---
 

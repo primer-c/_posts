@@ -1,6 +1,7 @@
 ---
 date: October 25 2020
-tags: 快速创建Github远程仓库
+title: 快速创建Github远程仓库
+tags: Git
 comments: true
 ---
 
