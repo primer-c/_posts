@@ -1,5 +1,5 @@
 ---
-title: Ajax异步请求案例之一
+title: Ajax异步请求案例之一:基础代码
 date: 2020-10-12
 categories: JavaScript
 ---
