@@ -1,7 +1,7 @@
 ---
-title: Ajax异步请求案例：JSON解析
+title: Ajax异步请求案例：Git JSON解析
 date: 2020-10-12
-categories: JavaScript
+tags: JavaScript
 ---
 
 #### 1. 项目说明
@@ -114,7 +114,7 @@ categories: JavaScript
 
    - 创建静态文件： `less/indexless`，保存时自动生成`css/index.css`
 
-     ```css
+     ```less
      * {
        margin: 0;
        padding: 0;
@@ -172,18 +172,13 @@ categories: JavaScript
      1. 对象创建
 
         ```js
-        let xhr
-        if (XMLHttpRequest) {
-          xhr = new XMLHttpRequest()
-        } else {
-          xhr = new ActiveXObject('Mircrosoft.XMLHTTP')
-        }
+        let xhr = new XMLHttpRequest()
         ```
 
      2. 设置请求方式
 
         ```js
-        xhr.open('GET', url, true)
+        xhr.open('GET', url)
         ```
 
      3. 调用回调函数
@@ -200,17 +195,17 @@ categories: JavaScript
 
      5. 解析`JSON`
 
-        - 由于响应的数据较多，只能传输`JSON`结构的数据；
+        - 由于响应的数据较多，只能采用`JSON`结构的数据传输；
 
-        - 但是，数据在传输过程中，转换为了字符串
+        - 但是，数据在传输过程中，自动转换为了字符串；
 
         - 我们可以测试以下
 
           ```js
           xhr.onload = function () {
-            let resiveData = xhr.responseText
-            console.log(resiveDate)
-            console.log(typeof resiveDate) // string
+            let data = xhr.responseText
+            console.log(data)
+            console.log(typeof data) // string
           }
           ```
 
@@ -241,12 +236,8 @@ categories: JavaScript
      // 7. 事件监听
      btn.addEventListener('click', function () {
        // 1. 创建代理对象
-       let xhr
-       if (window.XMLHttpRequest) {
-         xhr = new XMLHttpRequest()
-       } else {
-         xhr = new ActiveXObject('Mircrosoft.XMLHTTP')
-       }
+       let xhr = new XMLHttpRequest()
+
        // 2. 设置请求方式
        xhr.open('GET', url, true)
 
