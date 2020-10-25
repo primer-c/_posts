@@ -1,5 +1,5 @@
 ---
-title: Ajax异步请求案例之-基本请求代码
+title: Ajax异步请求案例之一
 date: 2020-10-12
 categories: JavaScript
 ---
@@ -132,4 +132,6 @@ categories: JavaScript
 
 11. 关于 Ajax 基本原理的`TypeScript`版本介绍
 
-    [参考文档](https://yuanmin650304.github.io/2020/10/15/JavaScript/JS/Ajax-base-for-Typescript/)
+- [参考文档](https://yuanmin650304.github.io/2020/10/15/JavaScript/JS/Ajax-base-for-Typescript/)
+
+- [[github 仓库]]()

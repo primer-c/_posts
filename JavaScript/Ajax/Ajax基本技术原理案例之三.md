@@ -8,7 +8,7 @@ categories: JavaScript
 
 1. 创建目录： `ajax-base-master` / `public`
 
-2. 初始化项目`root`:  
+2. 初始化项目`root`:
 
    ```bash
    git install express
@@ -20,13 +20,15 @@ categories: JavaScript
    const express = require('express')
    const path = require('path')
    const app = express()
-   
+
    // 配置静态资源： HTML、CSS、JS、Image
-   app.use(express.static(path.join(__dirname,'public')))
-   
+   app.use(express.static(path.join(__dirname, 'public')))
+
    const port = process.env.NODE_ENV || 3000
-   
-   app.listen(()=>console.log(`Server running on port: http://localhost:${port}...`))
+
+   app.listen(() =>
+     console.log(`Server running on port: http://localhost:${port}...`)
+   )
    ```
 
 4. 创建静态文件：`index.html`
@@ -34,16 +36,16 @@ categories: JavaScript
    ```html
    <!DOCTYPE html>
    <html lang="en">
-   <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-   </head>
-   <body>
-     <div class="container">渔舟唱晚 响穷彭蠡之滨 雁阵惊寒 声断衡阳之浦</div>
-     <button>Ajax Demo</button>
-     <script></script>
-   </body>
+     <head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>Document</title>
+     </head>
+     <body>
+       <div class="container">渔舟唱晚 响穷彭蠡之滨 雁阵惊寒 声断衡阳之浦</div>
+       <button>Ajax Demo</button>
+       <script></script>
+     </body>
    </html>
    ```
 
@@ -52,10 +54,10 @@ categories: JavaScript
    1. 对象创建
 
       ```js
-      let xml;
-      if(XMLHttpRequest) {
+      let xml
+      if (XMLHttpRequest) {
         xml = new XMLHttpRequest()
-      }else{
+      } else {
         xml = new ActiveXObject('Mircrosoft.XMLHTTP')
       }
       ```
@@ -63,14 +65,15 @@ categories: JavaScript
    2. 设置请求方式
 
       ```js
-      xml.open("GET",url,true)
+      xml.open('GET', url, true)
       ```
 
    3. 调用回调函数
 
       ```js
-      xml.onreadystatechange = function(){
-        if(xml.readyState == 4 && xml.status == 200){}
+      xml.onreadystatechange = function () {
+        if (xml.readyState == 4 && xml.status == 200) {
+        }
       }
       ```
 
@@ -83,27 +86,27 @@ categories: JavaScript
 6. 为`server.js`添加路由
 
    ```js
-   app.get('/get', async(req,res) => {
-     await res.send("落霞与孤鹜齐飞 秋水共长天一色")
+   app.get('/get', async (req, res) => {
+     await res.send('落霞与孤鹜齐飞 秋水共长天一色')
    })
    ```
 
 7. 为`indexhtml`注册事件
 
    ```js
-   const url = "http://localhost:3000/get"
+   const url = 'http://localhost:3000/get'
    const div = document.querySelector('div')
    const btn = document.querySelector('button')
-   btn.addEventListener("click",function(){
-     let xml;
-     if(XMLHttpRequest) {
+   btn.addEventListener('click', function () {
+     let xml
+     if (XMLHttpRequest) {
        xml = new XMLHttpRequest()
-     }else{
+     } else {
        xml = new ActiveXObject('Mircrosoft.XMLHTTP')
      }
-     xml.open("GET",url,true)
-     xml.onreadystatechange = function(){
-       if(xml.readyState == 4 && xml.status == 200){
+     xml.open('GET', url, true)
+     xml.onreadystatechange = function () {
+       if (xml.readyState == 4 && xml.status == 200) {
          div.innerHTML = xml.responseText
        }
      }
@@ -127,6 +130,7 @@ categories: JavaScript
     - `server.js`
     - `index.html`
 
-11.  关于Ajax基本原理的`TypeScript`版本介绍
+11. 关于 Ajax 基本原理的`TypeScript`版本介绍
+
 
     [参考文档](https://yuanmin650304.github.io/2020/10/15/JavaScript/JS/Ajax-base-for-Typescript/)
