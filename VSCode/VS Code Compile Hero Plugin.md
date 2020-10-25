@@ -1,6 +1,6 @@
 ---
 date: October 23 2020
-categories: VS Code
+tags: VS Code
 title: VS Code Compile Hero Plugin
 comments: true
 ---
@@ -50,7 +50,7 @@ comments: true
 
 - 支持格式化 javascript, json, css, sass, 和 html 等文件；
 
-- 可修改编译后目录和文件的输出位置: 文件列表点击插件Setting => 
+- 可修改编译后目录和文件的输出位置: 文件列表点击插件 Setting =>
 
   ![Setting](https://s1.ax1x.com/2020/10/24/BVmwee.png)
 

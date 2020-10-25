@@ -1,7 +1,7 @@
 ---
 title: Ajax基本技术原理案例之三
 date: 2020-10-12
-categories: JavaScript
+tags: JavaScript
 ---
 
 #### 1. 项目创建
@@ -131,6 +131,5 @@ categories: JavaScript
     - `index.html`
 
 11. 关于 Ajax 基本原理的`TypeScript`版本介绍
-
 
     [参考文档](https://yuanmin650304.github.io/2020/10/15/JavaScript/JS/Ajax-base-for-Typescript/)
