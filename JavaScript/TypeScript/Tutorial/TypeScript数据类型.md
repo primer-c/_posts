@@ -53,11 +53,11 @@ commits: true
 
 #### 6.元组
 
-[[元组 Types]]()
+[[Tuple Types]]()
 
 #### 7.枚举
 
-[[枚举 Types]]()
+[[Enum Types]]()
 
 #### 8.void
 
