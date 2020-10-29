@@ -1,6 +1,7 @@
 ---
 date: October 24 2020
-title: Ubuntu安装配置Nvm
+title: 2.Ubuntu20.04 安装与配置 Nvm
+tags: Ubuntu
 comments: true
 ---
 
@@ -111,9 +112,15 @@ comments: true
 - npm 配置镜像源
   ![npm配置镜像源](https://s1.ax1x.com/2020/10/24/BZCbT0.png)
 
+- 参考文档
+
+[[NPM 镜像源配置]](https://web-oyster.github.io/2020/10/24/Node/Npm/NPM%E9%95%9C%E5%83%8F%E6%BA%90%E9%85%8D%E7%BD%AE/)
+
 #### 5. 参考文档
 
-[[Linux]]()
+[[2.Ubuntu 系统及应用软件安装与配置]](https://web-oyster.github.io/2020/10/24/Linux/Ubuntu/Ubuntu%E7%B3%BB%E7%BB%9F%E5%8F%8A%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/)
+
+[[NPM 包管理器]](https://web-oyster.github.io/2020/10/24/Node/Npm/NPM%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/)
 
 #### 6. 联系方式
 

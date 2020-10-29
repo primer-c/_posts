@@ -1,0 +1,75 @@
+---
+date: October 24 2020
+title: 1.Windows安装与配置Node
+tags: Node
+comments: true
+---
+
+#### 1. 下载
+
+- [[Node 官网下载：]](http://nodejs.cn/download/)
+
+- 下载 Windows 安装包 (.msi)
+
+#### 2. 安装目录
+
+- D：/Applications/node
+
+#### 3. 安装
+
+- 省略
+
+#### 4. 配置环境变量
+
+- 环境配置主要是配置 npm 安装的全局模块所在的路径，以及缓存 cache 的路径；
+
+1. 为什么要配置环境变量
+
+- 全局安装 Node 依赖包时，系统默认会将安装的模块置于`C:\Users\Adminstration\AppData\Roaming\npm`，从而占用 C 盘空间；
+
+2. 配置环境变量
+
+- 创建两个目录： `node_cache`, `node_global`
+
+- 其中`node_cache`为下载包时缓存目录
+
+- `node_global`全局安装包就置于此；
+
+1. npm 配置 config
+
+```bash
+npm config set prefix "D:\Applications\node\node_global"
+npm config set cache :"D:\Applications\node\node_cache"
+```
+
+2. 配置环境变量
+
+- 配置用户环境变量:
+
+  ```bash
+  D:\Applications\node\node_global
+  ```
+
+- 配置系统环境变量
+
+- 新建 PATH：
+
+  ```bash
+  %NODE_PATH%
+  D:\Applications\node\node_global\node_modules
+  ```
+
+- 测试
+
+  ```bash
+  npm install yarn -g
+  yarn -v
+  ```
+
+#### 5. 参考文档
+
+[[NPM 包管理器]](https://web-oyster.github.io/2020/10/24/Node/Npm/NPM%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/)
+
+#### 6. 联系方式
+
+[[Email]](yuanmin8888@outlook.com)

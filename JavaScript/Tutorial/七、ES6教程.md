@@ -4,56 +4,122 @@ categories: JavaScript
 title: ES6教程
 ---
 
-#### 1.变量的解构赋值
+#### 1.Let 和 Const 命令
 
-#### 2.字符串的扩展
+[[1.Let 和 Const 命令]](https://es6.ruanyifeng.com/#docs/let)
 
-#### 3.正则的扩展
+#### 2.变量的解构赋值
 
-#### 4.数值的扩展
+[[2.变量的解构赋值]](https://es6.ruanyifeng.com/#docs/destructuring)
 
-#### 5.函数的扩展
+#### 3.字符串的扩展
 
-#### 6.数组的扩展
+[[3.字符串的扩展]](https://es6.ruanyifeng.com/#docs/string)
 
-#### 7.对象的扩展
+#### 4.字符串的新增方法
 
-#### 8.对象的新增方法
+[[4.字符串的新增方法]](https://es6.ruanyifeng.com/#docs/string-methods)
 
-#### 9.字符串的新增方法
+#### 5.正则的扩展
 
-#### 10.Symbol
+[[5.正则的扩展]](https://es6.ruanyifeng.com/#docs/regex)
 
-#### 11.Set 和 Map 数据结构
+#### 6.数值的扩展
 
-#### 12.Proxy
+[[6.数值的扩展]](https://es6.ruanyifeng.com/#docs/number)
 
-#### 13.Reflect
+#### 7.函数的扩展
 
-#### 14.Promise 对象
+[[7.函数的扩展]](https://es6.ruanyifeng.com/#docs/function)
 
-#### 15.Iterator 和 for …of 循环
+#### 8.数组的扩展
 
-#### 16.Generator 函数语法
+[[8.数组的扩展]](https://es6.ruanyifeng.com/#docs/array)
 
-#### 17.Generator 函数的异步应用
+#### 9.对象的扩展
 
-#### 18.async 函数
+[[9.对象的扩展]](https://es6.ruanyifeng.com/#docs/object)
 
-#### 19.Class 的基本语法
+#### 10.对象的新增方法
 
-#### 20.Class 的继承
+[[10.对象的新增方法]](https://es6.ruanyifeng.com/#docs/object-methods)
 
-#### 21.Module 的语法
+#### 11.Symbol
 
-#### 22.Module 的加载实现
+[[11.Symbol]](https://es6.ruanyifeng.com/#docs/symbol)
 
-#### 23.编程风格
+#### 12.Set 和 Map 数据结构
 
-#### 24.异步遍历器
+[[12.Set 和 Map 数据结构]](https://es6.ruanyifeng.com/#docs/set-map)
 
-#### 25.ArrayBuffer
+#### 13.Proxy
 
-#### 26.Decorator
+[[13.Proxy]](https://es6.ruanyifeng.com/#docs/proxy)
 
-#### 27.项目案例
+#### 14.Reflect
+
+[[14.Reflect]](https://es6.ruanyifeng.com/#docs/reflect)
+
+#### 15.Promise 对象
+
+[[15.Promise 对象]](https://es6.ruanyifeng.com/#docs/promise)
+
+#### 16.Iterator 和 for …of 循环
+
+[[16.Iterator 和 for …of 循环]](https://es6.ruanyifeng.com/#docs/iterator)
+
+#### 17.Generator 函数语法
+
+[[17.Generator 函数语法]](https://es6.ruanyifeng.com/#docs/generator)
+
+#### 18.Generator 函数的异步应用
+
+[[18.Generator 函数的异步应用]](https://es6.ruanyifeng.com/#docs/generator-async)
+
+#### 19.async 函数
+
+[[19.async 函数]](https://es6.ruanyifeng.com/#docs/async)
+
+#### 20.Class 的基本语法
+
+[[20.Class 的基本语法]](https://es6.ruanyifeng.com/#docs/class)
+
+#### 21.Class 的继承
+
+[[21.Class 的继承]](https://es6.ruanyifeng.com/#docs/class-extends)
+
+#### 22.Module 的语法
+
+[[22.Module 的语法]](https://es6.ruanyifeng.com/#docs/module)
+
+#### 23.Module 的加载实现
+
+[[23.Module 的加载实现]](https://es6.ruanyifeng.com/#docs/module)
+
+#### 24.编程风格
+
+[[24.编程风格]](https://es6.ruanyifeng.com/#docs/style)
+
+#### 25.异步遍历器
+
+[[25.异步遍历器]](https://es6.ruanyifeng.com/#docs/async-iterator)
+
+#### 26.ArrayBuffer
+
+[[26.ArrayBuffer]](https://es6.ruanyifeng.com/#docs/arraybuffer)
+
+#### 27.Decorator
+
+[[27.Decorator]](https://es6.ruanyifeng.com/#docs/decorator)
+
+#### 28.项目案例
+
+[[28.项目案例]]()
+
+#### 28. 参考文档
+
+[[JavaScript 教学大纲]](https://web-oyster.github.io/2020/10/28/JavaScript/Tutorial/JavaScript%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
+
+#### 29. 联系方式
+
+[[Email]](yuanmin8888@outlook.com)
