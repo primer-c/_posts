@@ -3,6 +3,21 @@ date: October 28 2020
 categories: JavaScript
 title: HTML5 API
 ---
+#### 1. Canvas
+
+#### 2. SVG
+
+#### 3. 多媒体Audio & Video
+
+#### 4. 地理定位
+
+#### 5. 拖放
+
+#### 6. 应用缓存
+
+#### 7. WebWorker
+
+#### 8. WebSocket
 
 #### 1. 参考文档
 
