@@ -10,7 +10,7 @@ comment: true
 - 全局安装 Hexo: 开启 Git
 
   ```bash
-  $ sudo npm install -g hexo-cli
+  npm install -g hexo-cli
   ```
 
 #### 2. 初始化项目
@@ -18,9 +18,9 @@ comment: true
 - 初始化 hexo
 
   ```bash
-  $ cd hexo_blog
-  $ hexo init
-  $ git init
+  cd hexo_blog
+  hexo init
+  git init
   ```
 
 3. 本地部署
@@ -28,7 +28,7 @@ comment: true
 - Hexo 本地部署并测试
 
   ```bash
-  $ hexo server
+  hexo server
   ```
 
 - localhost:4000
@@ -46,8 +46,8 @@ comment: true
 - 生成目录和静态文件
 
   ```bash
-  $ hexo generate
-  $ hexo -g       //简写
+  hexo generate
+  hexo -g       //简写
   ```
 
 5. 创建 github 仓库
@@ -93,7 +93,7 @@ comment: true
 - 创建 Github SSH key 密钥
 - 创建一个 SSH key,在命令行（即 Git Bash）输入以下命令， 回车三下即可：
   ```bash
-  $ ssh-keygen -t rsa -C "username@gmail.com"
+  ssh-keygen -t rsa -C "username@gmail.com"
   ```
 - 生成：id_rsa(私钥) 和 id_rsa.pub(公钥),
 
@@ -108,7 +108,7 @@ comment: true
 - 测试是否添加成功
 
   ```bash
-  $ ssh -T git@github.com
+  ssh -T git@github.com
   ```
 
 - 提示符下： 返回`“You’ve successfully authenticated”`即成功
@@ -117,16 +117,16 @@ comment: true
 
 - deploy
   ```bash
-  $ hexo deploy
-  $ hexo clean
-  $ hexo d -g #生成并上传
+  hexo deploy
+  hexo clean
+  hexo d -g #生成并上传
   ```
 
 #### 4.故障处理
 
 - 故障处理
   ```bash
-  $ hexo clean	## 删除public目录，然后再来重新生成和发布
+  hexo clean	## 删除public目录，然后再来重新生成和发布
   ```
 
 #### 5.配置文件范本

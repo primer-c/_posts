@@ -1,11 +1,13 @@
 ---
 date: October 24 2020
-title: 2.Ubuntu20.04 安装与配置 Nvm
+title: Ubuntu20.04 安装与配置 Nvm
 tags: Ubuntu
 comments: true
 ---
 
-#### 1. Node 的一种版本管理器，它可以管理多版本 Node 以及 npm
+#### 1.Nvm简介 
+
+- Node 的一种版本管理器，它可以管理多版本 Node 以及 npm
 
 #### 2. 安装
 
@@ -20,9 +22,9 @@ comments: true
   终端 Home 目录执行如下命令，克隆 nvm：
 
   ```bash
-  cd ~/
-  mkdir .nvm
-  git clone https://github.com/creationix/nvm .nvm
+  cd ~/opt
+  sudo mkdir .nvm 
+  sudo git clone https://github.com/creationix/nvm .nvm
   ```
 
 - 克隆示意图
@@ -32,7 +34,9 @@ comments: true
 - 安装 nvm
 
   ```bash
-  bash install.bash
+  cd /opt/.nvm/nvm
+  ls 
+  sudo bash install.sh
   ```
 
 - 安装示意图

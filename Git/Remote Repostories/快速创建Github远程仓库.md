@@ -70,6 +70,7 @@ comments: true
 - git commit -m "first commit"
 - git branch -M main
 - git remote add origin git@github.com:web-oyster/blog_for_web-master.git
+- 注释： web-oyster 是 github 用户名,blog_for_web-master 是远程仓库名
 - git push -u origin main
 
 ##### 2. push an existing repository from the command line
@@ -80,4 +81,8 @@ comments: true
 
 #### 7. 参考文档
 
-[[Git]]()
+[[Git 教程]](https://web-oyster.github.io/2020/10/25/Git/Tutorial/Git%E6%95%99%E7%A8%8B/)
+
+#### 3. 联系方式
+
+[[Email]](yuanmin8888@outlook.com)

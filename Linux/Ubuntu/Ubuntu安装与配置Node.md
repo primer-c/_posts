@@ -1,6 +1,6 @@
 ---
 date: October 24 2020
-title: 1.Ubuntu20.04 安装与配置Node
+title: Ubuntu20.04 安装与配置Node
 tags: Ubuntu
 comments: true
 ---

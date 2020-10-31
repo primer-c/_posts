@@ -1,0 +1,25 @@
+---
+date: October 28 2020
+tags: DataBase
+title: Ubuntu20.04安装MongoDB
+---
+
+#### 1.下载
+
+[[官网下载地址]](https://www.mongodb.com/download-center/community/releases)
+
+#### 2.安装
+
+- 软件安装
+
+```bash
+
+```
+
+#### 1.参考文档
+
+[[MongoDB 教程]](https://web-oyster.github.io/2020/10/28/DataBase/MongoDB/Tutorial/MongoDB%E6%95%99%E7%A8%8B/)
+
+#### 十、联系方式
+
+[[Email]](yuanmin8888@outlook.com)

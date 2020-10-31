@@ -1,0 +1,42 @@
+---
+date: October 28 2020
+tags: HTML
+title: HTML表格元素
+commits: true
+---
+
+#### 1.HTML 表格元素
+
+| element  | description        |
+| -------- | ------------------ |
+| table    | 表格元素           |
+| caption  | 表格标题元素       |
+| tr       | 表格行元素         |
+| th       | 表头单元格元素     |
+| td       | 表格单元格元素     |
+| thead    | 表格行表头         |
+| tbody    | 表格列表头         |
+| tfoot    | 表格表脚           |
+| colgroup | 对表格按列处理元素 |
+| col      | 对表格按列处理元素 |
+
+#### 2.HTML 表格属性
+
+- 表二： 表格属性
+
+| attribute | description |
+| --------- | ----------- |
+| colspan   | 列合并      |
+| rowspan   | 行合并      |
+| headers   | 表格头      |
+| border    | 表格边框    |
+
+#### 3.
+
+#### 1.参考文档
+
+[[四、HTML 元素]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/%E5%9B%9B%E3%80%81HTML%20%E5%85%83%E7%B4%A0/)
+
+#### 2. 联系方式
+
+[[Email]](yuanmin8888@outlook.com)
