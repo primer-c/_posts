@@ -130,8 +130,6 @@ tags: Ajax
     - `server.js`
     - `index.html`
 
-11. 关于 Ajax 基本原理的`TypeScript`版本介绍
+11. 源码
 
-- [参考文档](https://yuanmin650304.github.io/2020/10/15/JavaScript/JS/Ajax-base-for-Typescript/)
-
-- [[github 仓库]]()
+- [[ajax-base-master]](https://github.com/web-oyster/ajax-base-master)
