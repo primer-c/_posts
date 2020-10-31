@@ -19,13 +19,16 @@ comments: true
 
 #### 4.Ubuntu20.04安装第三方软件
 
-[[Ubuntu20.04安装第三方软件]]()
+[[Ubuntu20.04安装第三方软件]](https://web-oyster.github.io/2020/10/28/Linux/Ubuntu/Ubuntu20.04%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E8%BD%AF%E4%BB%B6/)
 
+#### 5.Ubuntu20.04安装MongoDB
 
-#### 5. 参考文档
+[[Ubuntu20.04安装MongoDB]](https://web-oyster.github.io/2020/10/28/DataBase/MongoDB/Tags/Ubuntu20.04%E5%AE%89%E8%A3%85MongoDB/)
+
+#### 6. 参考文档
 
 [[1.Ubuntu 教程]](https://web-oyster.github.io/2020/10/24/Linux/Linux/Ubuntu%E6%95%99%E7%A8%8B/)
 
-#### 6. 联系方式
+#### 7. 联系方式
 
 [[Email]](yuanmin8888@outlook.com)
