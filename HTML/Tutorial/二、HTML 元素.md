@@ -50,7 +50,7 @@ title: 二、HTML元素
 
 #### 12.参考文档
 
-[[HTML教程]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
+[[HTML教程]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E7%A8%8B/)
 
 #### 13. 联系方式
 

@@ -16,10 +16,10 @@ title: 一、HTML初探
 
 [[3. 元素属性]](https://web-oyster.github.io/2020/10/28/HTML/HTML%20Tags/%E4%B8%80%E3%80%81HTML%E5%88%9D%E6%8E%A2/4.%20%E5%85%83%E7%B4%A0%E5%B1%9E%E6%80%A7/)
 
-#### 1.参考文档
+#### 4.参考文档
 
-[[HTML 教学大纲]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
+[[HTML教程]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E7%A8%8B/)
 
-#### 2. 联系方式
+#### 5. 联系方式
 
 [[Email]](yuanmin8888@outlook.com)

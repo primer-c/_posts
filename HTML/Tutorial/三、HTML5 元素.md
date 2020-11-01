@@ -34,7 +34,7 @@ title: 三、HTML5元素
 
 #### 3.8 参考文档
 
-[[HTML 教学大纲]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
+[[HTML教程]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E7%A8%8B/)
 
 #### 3.9 联系方式
 
