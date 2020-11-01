@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: HTML
-title: 四、HTML5 新增功能
+title: 四、HTML5 新增内容
 ---
 
 #### 1. Canvas 画布
