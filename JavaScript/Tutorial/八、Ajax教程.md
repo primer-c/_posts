@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: JavaScript
-title: 九、Ajax教程
+title: 八、Ajax教程
 ---
 #### 1.Ajax技术原理
 

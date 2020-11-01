@@ -1,6 +1,6 @@
 ---
 date: October 28 2020
-categories: JavaScript
+categories: TypeScript
 title: TypeScript教程
 ---
 

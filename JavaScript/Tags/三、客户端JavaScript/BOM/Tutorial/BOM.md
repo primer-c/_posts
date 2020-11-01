@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: JavaScript
-title: BOM
+title: 3.2 BOM
 ---
 
 #### 1.参考文档
