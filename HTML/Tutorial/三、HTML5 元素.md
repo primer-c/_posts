@@ -24,18 +24,18 @@ title: 五、HTML5元素
 
 [[HTML5 链接相关的属性]]()
 
-#### 5.HTML5 其他属性
+#### 6. HTML5 全局属性
 
-[[HTML5 其他属性]]()
+[[HTML5 全局属性]](https://web-oyster.github.io/2020/10/28/HTML/HTML%20Tags/%E4%B8%80%E3%80%81HTML%E5%88%9D%E6%8E%A2/5.%20HTML5%20%E5%85%A8%E5%B1%80%E5%B1%9E%E6%80%A7/)
 
-#### 6.HTML5 新增事件
+#### 7.HTML5 新增事件
 
 [[HTML5 新增事件]]()
 
-#### 1.参考文档
+#### 8.参考文档
 
 [[HTML 教学大纲]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
 
-#### 2. 联系方式
+#### 9. 联系方式
 
 [[Email]](yuanmin8888@outlook.com)

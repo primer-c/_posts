@@ -1,7 +1,7 @@
 ---
 date: October 24 2020
 title: NPM包管理器
-categories: Node
+tags: Node
 comments: true
 ---
 

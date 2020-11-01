@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
-categories: HTML
-title: 二、CSS初探
+categories: CSS
+title: 一、CSS简介
 ---
 
 #### 1. 定义和应用样式
@@ -24,10 +24,10 @@ title: 二、CSS初探
 
 [[5. 其他 CSS 单位]](https://web-oyster.github.io/2020/10/28/HTML/HTML%20Tags/%E4%BA%8C%E3%80%81CSS%20%E5%88%9D%E6%8E%A2/5.%20%E5%85%B6%E4%BB%96%20CSS%20%E5%8D%95%E4%BD%8D/)
 
-#### 1.参考文档
+#### 6.参考文档
 
-[[HTML 教学大纲]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
+[[CSS教程]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
 
-#### 2. 联系方式
+#### 7. 联系方式
 
 [[Email]](yuanmin8888@outlook.com)
