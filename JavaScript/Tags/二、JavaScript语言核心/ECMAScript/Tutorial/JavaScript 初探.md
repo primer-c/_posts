@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
-categories: HTML
-title: 三、JavaScript初探
+categories: JavaScript
+title: JavaScript初探
 ---
 
 #### 1.JavaScript 的使用
@@ -30,7 +30,7 @@ title: 三、JavaScript初探
 
 #### 7.参考文档
 
-[[HTML 教学大纲]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
+[[二、JavaScript 语言核心]](https://web-oyster.github.io/2020/10/28/JavaScript/Tutorial/%E4%BA%8C%E3%80%81JavaScript%20%E8%AF%AD%E8%A8%80%E6%A0%B8%E5%BF%83/)
 
 #### 8. 联系方式
 

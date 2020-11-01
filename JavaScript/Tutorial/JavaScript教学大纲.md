@@ -32,14 +32,10 @@ title: JavaScript 教学大纲
 
 [[七、ES6 教程]](https://web-oyster.github.io/2020/10/28/JavaScript/Tutorial/%E4%B8%83%E3%80%81ES6%E6%95%99%E7%A8%8B/)
 
-### 八、TypeScript 教程
+#### 八. Ajax教程
 
-[[八、TypeScript 教程]](https://web-oyster.github.io/2020/10/28/JavaScript/Tutorial/%E5%85%AB%E3%80%81TypeScript%E6%95%99%E7%A8%8B/)
+[[八. Ajax教程]]()
 
-#### 九. Ajax教程
-
-[[九. Ajax教程]]()
-
-#### 十、联系方式
+#### 九、联系方式
 
 [[Email]](yuanmin8888@outlook.com)

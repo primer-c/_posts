@@ -1,16 +1,13 @@
 ---
 date: October 28 2020
 categories: JavaScript
-title: 三、客户端 JavaScript
+title: TypeScript教程
 ---
-#### 1.DOM
 
-#### 2.BOM
-
-### . 参考文档
+#### 1. 参考文档
 
 [[JavaScript 教学大纲]](https://web-oyster.github.io/2020/10/28/JavaScript/Tutorial/JavaScript%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/)
 
-###. 联系方式
+#### 2. 联系方式
 
 [[Email]](yuanmin8888@outlook.com)

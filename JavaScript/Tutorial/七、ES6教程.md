@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: JavaScript
-title: ES6教程
+title: 七、ES6教程
 ---
 
 #### 1.Let 和 Const 命令
