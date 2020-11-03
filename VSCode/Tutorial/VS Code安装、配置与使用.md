@@ -14,9 +14,9 @@ comments: true
 
 [[40. User Snippet]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/40.%20Snippets/)
 
-41. 快速编辑
+41. VS Code快速编写HTML代码
 
-[[41. VS Code快速编辑]]()
+[[41. VS Code快速编写HTML代码]]()
 
 ### 3.插件配置
 
