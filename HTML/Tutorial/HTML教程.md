@@ -6,7 +6,7 @@ title: HTML教程
 
 #### 一、HTML 初探
 
-[[HTML 初探]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/%E4%B8%80%E3%80%81HTML%20%E5%88%9D%E6%8E%A2/)
+[[一、HTML 初探]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/%E4%B8%80%E3%80%81HTML%20%E5%88%9D%E6%8E%A2/)
 
 #### 二、HTML 元素
 
