@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: CSS
-title: 八、BFC
+title: 六、其他 CSS 属性和特性
 ---
 
 #### 2.参考文档
