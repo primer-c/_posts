@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: CSS
-title:十四、BFC
+title: 十四、BFC
 ---
 
 #### 2.参考文档
