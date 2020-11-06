@@ -12,7 +12,7 @@ title: MongoDB教程
 
 2. Ubuntu20.04 安装
 
-[[Ubuntu20.04 安装 MongoDB]](https://web-oyster.github.io/2020/10/28/DataBase/MongoDB/Tags/Ubuntu20.04%E5%AE%89%E8%A3%85MongoDB/)
+[[Ubuntu20.04 安装 MongoDB]](https://web-oyster.github.io/2020/10/28/Linux/Ubuntu/6.Ubuntu20.04%E5%AE%89%E8%A3%85MongoDB/)
 
 3. 3.Mongoose建模与关联设置
 
