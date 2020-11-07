@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: CSS
-title: 十二、变换
+title: 十一、Transition过渡
 ---
 
 #### 2.参考文档

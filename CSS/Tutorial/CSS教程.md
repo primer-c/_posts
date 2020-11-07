@@ -44,17 +44,17 @@ title: CSS 教程
 
 [[十、Grid 网格布局]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E3%80%81Grid%20%E7%BD%91%E6%A0%BC%E5%B8%83%E5%B1%80/)
 
-#### 十一、过渡
+#### 十一、Transition 过渡
 
-[[十一、过渡]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E4%B8%80%E3%80%81%E8%BF%87%E6%B8%A1/)
+[[十一、Transition 过渡]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E4%B8%80%E3%80%81%E8%BF%87%E6%B8%A1/)
 
-#### 十二、变换
+#### 十二、Transform 变换
 
-[[十二、变换]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E4%BA%8C%E3%80%81%E5%8F%98%E6%8D%A2/)
+[[十二、Transform 变换]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E4%BA%8C%E3%80%81%E5%8F%98%E6%8D%A2/)
 
-#### 十三、动画
+#### 十三、Animation 动画
 
-[[十三、动画]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E4%B8%89%E3%80%81%E5%8A%A8%E7%94%BB/)
+[[十三、Animation 动画]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/%E5%8D%81%E4%B8%89%E3%80%81%E5%8A%A8%E7%94%BB/)
 
 #### 十四、BFC
 
