@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 categories: DataBase
-title: MongoDB教程
+title: 1. MongoDB教程
 ---
 
 #### 1.MongoDB 安装

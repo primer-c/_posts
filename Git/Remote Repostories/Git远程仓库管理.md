@@ -22,7 +22,7 @@ comments: true
 - git 初始化本地仓库
 
   ```bash
-
+  git init
   ```
 
 - 创建远程仓库

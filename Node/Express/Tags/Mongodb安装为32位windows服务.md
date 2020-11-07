@@ -49,7 +49,7 @@ bin>mongod --config "C:\mongodb\mongodb.config"  --install --serviceName "MongoD
 
 #### 3.参考文档
 
-[[]]()
+[[1. MongoDB教程]](https://web-oyster.github.io/2020/10/28/DataBase/MongoDB/Tutorial/MongoDB%E6%95%99%E7%A8%8B/)
 
 #### 4. 联系方式
 
