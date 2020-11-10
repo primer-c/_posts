@@ -78,7 +78,7 @@ title: 四、HTML5 新增内容
 
 #### 19.参考文档
 
-[[HTML教程]](https://web-oyster.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E7%A8%8B/)
+[[HTML教程]](https://web-dolphin.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E7%A8%8B/)
 
 #### 20. 联系方式
 

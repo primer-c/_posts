@@ -4,7 +4,11 @@ title: 2.Windows安装与配置Nvm
 tags: Node
 comments: true
 ---
-#### 1. 下载
+#### 1. 卸载node
+
+- 将安装的node卸载；
+
+#### 2.下载
 
 [[下载地址]](https://github.com/coreybutler/nvm-windows/releases)
 
@@ -12,7 +16,7 @@ comments: true
 
 - 解压
 
-#### 2. 安装
+#### 3. 安装
 
 - 安装目录： `F:/Application/Nvm/nvm`
 
@@ -28,7 +32,7 @@ comments: true
 
   ![[配置文件]](https://s1.ax1x.com/2020/10/15/0TERQx.png)
 
-#### 3. 配置NPM环境变量
+#### 4. 配置NPM环境变量
 
 - npm 配置镜像源: settings文件配置
 
@@ -41,7 +45,7 @@ comments: true
 
   ![[Nvm配置图]](https://s1.ax1x.com/2020/10/27/BMA8Rs.jpg)
 
-#### 4. 使用
+#### 5. 使用
 
 1. 安装不同版本 Node
 
@@ -72,7 +76,7 @@ comments: true
   node -v
   ```
 
-#### 5. 参考文档
+#### 6. 参考文档
 
 [[NPM 包管理器]](https://web-oyster.github.io/2020/10/24/Node/Npm/NPM%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/)
 

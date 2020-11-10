@@ -6,7 +6,7 @@ title: 一、CSS简介
 
 #### 1. 定义和应用样式
 
-[[1. 定义和应用样式]](https://web-oyster.github.io/2020/10/28/HTML/HTML%20Tags/%E4%BA%8C%E3%80%81CSS%20%E5%88%9D%E6%8E%A2/1.%20%E5%AE%9A%E4%B9%89%E5%92%8C%E5%BA%94%E7%94%A8%E6%A0%B7%E5%BC%8F/)
+[[1. 定义和应用样式]]()
 
 #### 2. 样式的层叠和继承
 
@@ -26,7 +26,7 @@ title: 一、CSS简介
 
 #### 6.参考文档
 
-[[CSS教程]](https://web-oyster.github.io/2020/10/28/CSS/Tutorial/CSS%E6%95%99%E7%A8%8B/)
+[[CSS教程]](https://web-dolphin.github.io/2020/10/28/CSS/Tutorial/CSS%E6%95%99%E7%A8%8B/)
 
 #### 7. 联系方式
 
