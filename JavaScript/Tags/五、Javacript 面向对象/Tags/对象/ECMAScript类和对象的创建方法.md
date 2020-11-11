@@ -1,0 +1,435 @@
+---
+date: november 11 2020
+tags: JavaScript
+title: ECMAScript类和对象的创建方法
+comment:ture
+---
+### 1.总则
+
++ 使用预定义对象只是面向对象语言的能力的一部分，它真正强大之处在于能够创建自己专用的类和对象。
++ ECMAScript 拥有很多创建对象或类的方法。
+
+### 2.内置构造函数创建对象
+
+#### 2.1 new Object()创建对象
+
++ 原始方式创建对象，属性和方法可以在对象创建后动态定义；
++ new Object()等同于对象字面量{}；
++ 通过new关键字，创建实例化Object对象；
+
+	```js
+	const person = new Object();
+	person.name = "Andy";
+	person.age = 20;
+	person.family = ["Alax","Tomas","Baiden"];
+	person.say = function(){
+		alert("My name is :" + this.name);
+	}
+	```
+	
++ 当Object实例化对象没有参数时，可以省略括号；
+
+	```js
+	const object = new Object;
+	```
+	
++ 使用同一接口创建多个对象时，会产生大量重复代码;
+
+##### 2.2 Date构造函数创建对象
+
++ new Date()创建对象
+ 
+	```js
+	const date = new Date();
+	```
+	
+##### 2.3 Array构造函数创建对象
+
++ new Date()创建对象
+ 
+	```js
+	const array = new Array(1,2,3,4);
+	```
+	
+##### 2.4 RegExp构造函数创建对象
+
++ new RegExp()创建对象
+ 
+	```js
+	const isMale = new RegExp("123");
+	var isMale=/123/;
+	```
+
++ isMale是通过RegExp构造函数创建出来的对象
++ isMale是RegExp构造函数的实例
+
+### 3.字面量创建对象
+
+- 对象字面量: 以花括号包裹键值对；
+
+	```js
+	const person = {
+		name: "Andy",
+		age: 20,
+		family: ["Alax","Tomas","Baiden"],
+		say: function(){
+			alert("My name is :" + this.name);
+		}
+	}
+	```
+	
++ 使用同一接口创建多个对象时，会产生大量重复代码;
+	
+### 4.工厂模式创建对象
+
+#### 4.1 工厂模式创建对象
+
+- 在函数中创建Object实例对象，然后通过实例对象定义属性和方法；
+- 通过return将实例对象返回；
+- 通过对函数传递不同参数，实现定义实例；
+
+	```js
+	function createPerson(name,age,family){
+		const object = new Object()
+		object.name = name;
+		object.age = age;
+		object.family = family;
+		object.say = function(){
+			alert("My name is :" + this.name);
+		}
+		return object
+	}
+	const person1 = createPerson("Andy",20,["Alax","Tomas","Baiden"]);
+	const person2 = createPerson("Tomas",12,["Alax","Andy","Baiden"]);
+	console.log(person1 instanceof Object) 						// true
+	person1.say()
+	person1.family
+	```
+	
++ instanceof无法判断它是谁的实例；
++ 只能判断他是对象；
++ 构造函数都可以判断出是谁的实例；
+
+#### 4.2 工厂模式创建对象改进
+
++ 在上例中，方法是共享的，可以提取出来：
+
+	```js
+	function say(){
+		alert("My name is :" + this.name);
+	}
+	return object
+	function createPerson(name,age,family){
+		const object = new Object()
+		object.name = name;
+		object.age = age;
+		object.say = say;
+		object.family = family;
+	}
+	const person1 = createPerson("Andy",20,["Alax","Tomas","Baiden"]);
+	const person2 = createPerson("Tomas",12,["Alax","Andy","Baiden"]);
+	console.log(person1 instanceof Object) 						// true
+	person1.say()
+	person1.family
+	```
+	
+### 5.自定义构造函数创建对象
+
++ 自定义构造函数: 任何函数通过new关键字，都能创建一个自定义构造函数；
++ 习惯上将自定义构造函数名首字母大写，以区分普通函数；
+
+
+	```js
+	function Person(name,age){
+		this.name = name;
+		this.age = age;
+	}
+	const person = new Person("Andy",18);
+	```
+	
++ 说明:person就是根据【Person构造函数】创建出来的实例对象；
+
+#### 5.1 构造函数的概念
+
++ 普通函数
+
+
+    ```js
+    function CreateFunction(){ }
+    ```
+	
++ 任何函数都可以定义为构造函数；
++ 函数通过new方式进行调用，这种函数的调用方式称之为：构造函数的调用；
+
+
+
+	```js
+	function CreateFunction(){ }
+	new CreateFunction()
+	```
+	
+#### 5.2 构造函数的执行过程
+
++ 创建Person构造函数的实例
+
+	```js
+	function Person(){}
+	var person = new Person();
+	console.log(person.constructor)         	// constructor属性返回创建此对象的数组或函数的引用
+	console.log(person instanceof Object)  		// true
+	console.log(person instanceof Person)  		// true
+	```
+
++ 将this指向该实例
+
+	```js
+	function say(){
+	  console.log("My name is :" + this.name);
+	}
+	function Person(name,age,family) {
+	  this.name = name,
+	  this.age = age,
+	  this.family = family,
+	  this.say = say
+	}
+	let person = new Person("Andy",20,["Tomas","Alax"]);
+	let hello = person.say()	
+	console.log(hello)
+	```
+
+#### 5.3 对比工厂模式：
+
++ 没有显式地创建对象；
++ 直接将属性和方法赋给this对象；
++ 没有 return 语句；
++ 构造函数无返回值时，默认会返回新对象实例；
++ 构造函数未尾添加return语句，可以重写调用构造函数时返回的值；
+
+#### 5.4 调用构造函数步骤
+
++ 创建一个新对象；
++ 将构造函数的作用域赋给新对象（将this指向这个新对象）；
++ 为新对象添加属性；
++ 返回新对象；
+
+#### 5.5 构造函数的分析
+
++ 实例对象person既是Object的实例，同时，又是Person的实例；
++ constructor属性，返回构造函数的引用；
++ 构造函数的缺陷：每个实例都包含不同的Function实例，从而是代码产生了冗余；
+
+	```js
+	function Person(){
+		object.name = name;
+		object.age = age;
+		object.say = function (){
+			console.log("My name is : " + this.name);
+		}
+	}
+	var person = new Person();
+	console.log(person.constructor)         	// constructor属性返回创建此对象的数组或函数的引用
+	console.log(person instanceof Object)  		// true
+	console.log(person instanceof Person)  		// true
+	```
+
+### 6.prototype原型方式
+
+#### 6.1prototype原型方式的优点
+ 
++ prototype原型创建对象
++ 原型模式优点：所有对象实例共享它的属性和方法
+
+	```js
+	function Person(){}
+	Person.prototype.name = "Andy";
+	Person.prototype.age = 20;
+	Person.prototype.family = ["Tomas","Alax","Jhon"];
+	Person.prototype.say = function(){
+		console.log("My name is : " + this.name);
+	}
+	console.log(Person.prototype);		//{name: 'Andy', age: 20, family: Array(3), say: ƒ, constructor: ƒ}
+	const person = new Person();			
+	person.say();						// My name is : Andy
+	console.log(person.name);			// Andy
+	```
+	
++ 原型模式依然可以定义自己的属性和方法,可以覆盖原型对象上的同名属性
+	
+
+	```js
+	function Person(){}
+	Person.prototype.name = "Andy";
+	Person.prototype.age = 20;
+	Person.prototype.family = ["Tomas","Alax","Jhon"];
+	Person.prototype.say = function(){
+		console.log("My name is : " + this.name);
+	}
+	console.log(Person.prototype);		//{name: 'Andy', age: 20, family: Array(3), say: ƒ, constructor: ƒ}
+	const person = new Person();			
+	person.say();						// My name is : Andy
+	person.name = "Tomad";
+	console.log(person.name);			// Tomas
+	```
+	
+#### 6.2 prototype原型方式的缺点
+
++ 首先，这个构造函数没有参数；
++ 不能通过给构造函数传递参数来初始化属性的值；
++ 现实中对象却很少被多个实例共享属性；
+
+	```js
+	function Car() {}
+	
+	Car.prototype.color = "blue";
+	Car.prototype.doors = 4;
+	Car.prototype.mpg = 25;
+	Car.prototype.drivers = new Array("Mike","John");
+	Car.prototype.showColor = function() {
+	  alert(this.color);
+	};
+	var oCar1 = new Car();
+	var oCar2 = new Car();
+	
+	oCar1.drivers.push("Bill");
+	
+	alert(oCar1.drivers);	//输出 "Mike,John,Bill"
+	alert(oCar2.drivers);	//输出 "Mike,John,Bill"
+	```
+	
+### 7.混合模式创建对象
+
+
++ 构造函数模式+原型模式创建对象；
++ 构造函数模式用于定义实例属性，原型模式用于定义方法和共享的属性；
+
+	```js
+	function Person(name,age,family){
+	    this.name = name;
+	    this.age = age;
+	    this.family = family;
+	}
+	Person.prototype = {
+	    constructor: Person,  //每个函数都有prototype属性，指向该函数原型对象，原型对象都有constructor属性，这是一个指向prototype属性所在函数的指针
+	    say: function(){
+	        alert(this.name);
+	    }
+	}
+	var person1 = new Person("Andy",21,["Tomas","Alax","Jhon"]);
+	console.log(person1);
+	
+	var person2 = new Person("Tomas",21,["Alax","Jhon","Andy"]);
+	console.log(person2);
+	```
++ 混合模式共享着对相同方法的引用，又保证了每个实例有自己的私有属性。最大限度的节省了内存;
+
+### 8. 动态原型模式
+
++ 把所有信息都封装在了构造函数中；
++ 通过检查某个应该存在的方法是否有效，来决定是否需要初始化原型；
+
+	```js
+	function(name,age,family){
+		// 1. 定义属性
+		this.name = name,
+		this.age = age,
+		this.family = family
+		// 2. 判断是否需要初始化方法
+		if(typeof this.sayName != "function") {
+			Person.prototype.sayName = function(){
+				console.log("My name is : " + this.name);
+			}
+		}
+	}
+	const person = new Person("Mary", 18, "Software Engineer");
+	person.sayName();
+	```
+
+### 9. 寄生构造函数模式
+
++ 本质上就是工厂模式+构造函数模式
+
+	```js
+	function Person(name,age,family){
+		const object = new Object()
+		object.name = name;
+		object.age = age;
+		object.family = family;
+		object.say = function(){
+			    console.log("My name is :" + this.name);
+		}
+		return object
+	}
+	const person = new Person("Andy",20,[["Alax","Tomas","Baiden"]])
+	person.say()
+	```
+
++ 与原型模式比较
+
+	```js
+	function SpecialArray(){
+	  const array = new Array();
+	  array.push.apply(array,arguments);
+	  Array.prototype.toPipedString = function(){
+	    return this.join('|')
+	  }
+	  return array
+	}
+	
+	const colors = new SpecialArray('Red',"Yellow","Blue","Green");
+	
+	console.log(colors.toPipedString())
+	```
+
++ 参考文档
+
+[[寄生构造函数模式]]()
+
+	```js
+	function SpecialArray(){
+	  const array = new Array();
+	  array.push.apply(array,arguments);
+	  array.toPipedString = function(){
+	    return this.join('|')
+	  }
+	  return array
+	}
+	const color = new SpecialArray('Red',"Yellow","Blue","Green");
+	console.log(color.toPipedString())
+	```
+	
+### 10.稳妥构造函数模式
+
++ 所谓稳妥是指没有公共属性，而且其方法也不引用this的对象;
++ 稳妥构造函数遵循与寄生构造函数类似的模式；
++ 有两点不同：
+	+ 一是新创建对象的实例方法不引用this；
+	+ 二是不使用new操作符调用构造函数；
++ Person是函数，存在局部变量和私有作用域；
++ 利用了闭包原理： 内部函数可以访问外部函数变量；
++ 参考文档
+
+[[]](https://blog.csdn.net/maomaolaoshi/article/details/73928094)
+
+	```js
+	function Person(name,age,family){
+	  const object = new Object();
+	  object.name = name;
+	  object.age = age;
+	  object.family = family;
+	  object.say = function(){
+		console.log("My name is: " + name)
+	  }
+	  return object;
+	}
+	
+	const person = Person("Andy",20,["Tomas","Alxa","Jhon"])
+	person.say()
+	```
+	
+### 11.参考文档
+
+### 12.联系方式
+
+
+
+
