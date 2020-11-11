@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript表达式
+title: 2.4 ECMAScript表达式
 ---
 
 #### 1.

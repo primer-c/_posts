@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript词法结构
+title: 2.1 ECMAScript词法结构
 ---
 
 #### 1.

@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript运算符
+title: 2.5 ECMAScript运算符
 ---
 
 #### 1.

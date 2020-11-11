@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript变量
+title: 3.1 ECMAScript变量
 ---
 
 #### 1.

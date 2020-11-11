@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript堆栈内存、变量与作用域
+title: 2.13 ECMAScript堆栈内存、变量与作用域
 ---
 
 #### 1.

@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript闭包
+title: 2.13 ECMAScript闭包
 ---
 
 #### 1.

@@ -79,7 +79,7 @@ title: ECMAScript类和对象的创建方法
 	
 + 使用同一接口创建多个对象时，会产生大量重复代码;
 	
-### 4.工厂模式创建对象
+### 4.工厂模式
 
 #### 4.1 工厂模式创建对象
 
@@ -117,13 +117,13 @@ title: ECMAScript类和对象的创建方法
 	function say(){
 		alert("My name is :" + this.name);
 	}
-	return object
 	function createPerson(name,age,family){
 		const object = new Object()
 		object.name = name;
 		object.age = age;
 		object.say = say;
 		object.family = family;
+		return object
 	}
 	const person1 = createPerson("Andy",20,["Alax","Tomas","Baiden"]);
 	const person2 = createPerson("Tomas",12,["Alax","Andy","Baiden"]);
@@ -159,8 +159,6 @@ title: ECMAScript类和对象的创建方法
 	
 + 任何函数都可以定义为构造函数；
 + 函数通过new方式进行调用，这种函数的调用方式称之为：构造函数的调用；
-
-
 
 	```js
 	function CreateFunction(){ }
@@ -427,8 +425,10 @@ title: ECMAScript类和对象的创建方法
 	
 ### 11.参考文档
 
+[[Javacript 面向对象]](https://web-dolphin.github.io/2020/10/28/JavaScript/Tutorial/%E4%BA%94%E3%80%81Javacript%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/)
+
 ### 12.联系方式
 
-
+[[Email]](yuanmin8888@outlook.com)
 
 

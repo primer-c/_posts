@@ -1,10 +1,25 @@
 ---
 date: October 28 2020
-tags: JavaScript
-title: ECMAScript递归
+categories: JavaScript
+title: ECMAScript函数
 ---
 
-#### 1.
+### 1.函数的定义
+
+### 2.函数的调用
+
+### 3.函数的参数
+
+### 4.函数的返回值
+
+### 5.闭包
+
+### 6.函数的属性、方法和沟走函数
+
+### 7.函数式编程
+
+作为命名空间的函数
+
 
 #### 2. 参考文档
 

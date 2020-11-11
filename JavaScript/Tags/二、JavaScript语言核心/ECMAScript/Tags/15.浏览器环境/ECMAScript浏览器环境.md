@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript浏览器环境
+title: 2.15 ECMAScript浏览器环境
 ---
 
 #### 1.

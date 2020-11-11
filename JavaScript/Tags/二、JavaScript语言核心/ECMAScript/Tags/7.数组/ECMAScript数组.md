@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript数组
+title: 2.7 ECMAScript数组
 ---
 
 #### 1.

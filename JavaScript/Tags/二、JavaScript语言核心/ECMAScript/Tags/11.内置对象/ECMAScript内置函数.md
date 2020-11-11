@@ -1,7 +1,7 @@
 ---
 date: October 28 2020
 tags: JavaScript
-title: ECMAScript内置函数
+title: 2.11 ECMAScript内置函数
 ---
 
 #### 1.
