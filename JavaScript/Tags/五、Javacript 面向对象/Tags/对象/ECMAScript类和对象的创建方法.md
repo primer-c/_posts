@@ -2,7 +2,6 @@
 date: november 11 2020
 tags: JavaScript
 title: ECMAScript类和对象的创建方法
-comment:ture
 ---
 ### 1.总则
 
