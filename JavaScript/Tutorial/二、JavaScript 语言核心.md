@@ -34,9 +34,9 @@ title: 二、JavaScript 语言核心
 
 [[7.数组]]()
 
-### 8.函数
+### 8.ECMAScript函数
 
-[[8.函数]]()
+[[8.ECMAScript函数]]()
 
 ### 9.对象
 
