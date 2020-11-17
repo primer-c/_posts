@@ -49,6 +49,10 @@ comments: true
 
 [[11.Ubuntu20.04安装TypeScript]](https://weboyster.github.io/2020/10/23/Linux/Ubuntu/11.Ubuntu%E5%AE%89%E8%A3%85TypeScript/)
 
+#### 12. Ubuntu20.04安装Tweaks桌面美化工具
+
+[[12. Ubuntu20.04安装Tweaks桌面美化工具]](https://web-dolphin.github.io/2020/10/28/Linux/Ubuntu/12.Ububtu20.04%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/)
+
 #### 6. 参考文档
 
 [[1.Ubuntu 教程]](https://weboyster.github.io/2020/10/24/Linux/Tutorial/Ubuntu%E6%95%99%E7%A8%8B/)
