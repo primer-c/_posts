@@ -46,12 +46,20 @@ title: 二、HTML元素
 
 #### 2.11 HTML 实体
 
-[[2.11 HTML特殊字体]](https://web-dolphin.github.io/2020/10/28/HTML/HTML%20Tags/%E4%BA%8C%E3%80%81HTML%E5%85%83%E7%B4%A0/2.11%20%20HTML%20%E7%89%B9%E6%AE%8A%E5%AD%97%E4%BD%93/)
+[[2.11 HTML特殊字符]](https://web-dolphin.github.io/2020/10/28/HTML/HTML%20Tags/%E4%BA%8C%E3%80%81HTML%E5%85%83%E7%B4%A0/2.11%20%20HTML%20%E7%89%B9%E6%AE%8A%E5%AD%97%E4%BD%93/)
 
-#### 12.参考文档
+#### 2.12 HTML元素属性
+
+[[2.12 HTML元素属性]](https://web-dolphin.github.io/2020/10/28/HTML/HTML%20Tags/%E4%BA%8C%E3%80%81HTML%E5%85%83%E7%B4%A0/2.12%20HTML%E5%85%83%E7%B4%A0%E5%B1%9E%E6%80%A7/)
+
+#### 2.13 HTML列表元素
+
+[[2.13 HTML列表元素]](https://web-dolphin.github.io/2020/10/28/HTML/HTML%20Tags/%E4%BA%8C%E3%80%81HTML%E5%85%83%E7%B4%A0/2.13%20HTML%E5%88%97%E8%A1%A8%E5%85%83%E7%B4%A0/)
+
+#### 2.12 参考文档
 
 [[HTML教程]](https://web-dolphin.github.io/2020/10/28/HTML/Tutorial/HTML%E6%95%99%E7%A8%8B/)
 
-#### 13. 联系方式
+#### 2.13 联系方式
 
-[[Email]](yuanmin8888@outlook.com)
+Email: yuanmin8888@outlook.com

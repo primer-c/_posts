@@ -26,7 +26,7 @@ title: CSS 教程
 
 #### 六、其他 CSS 属性和特性
 
-[[六、其他 CSS 属性和特性]](https://web-dolphin.github.io/2020/10/28/CSS/Tutorial/%E5%85%AD%E3%80%81%E5%85%B6%E4%BB%96%20CSS%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%89%B9%E6%80%A7/)
+[[六、CSS属性和特性]](https://web-dolphin.github.io/2020/10/28/CSS/Tutorial/%E5%85%AD%E3%80%81CSS%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%89%B9%E6%80%A7/)
 
 #### 七、Float浮动
 
