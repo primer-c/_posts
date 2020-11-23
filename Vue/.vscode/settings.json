@@ -1,0 +1,36 @@
+{
+  "compile-hero": {
+    "disable-compile-files-on-did-save-code": false,
+    "notification-toggle": false,
+    "typescript-output-directory": "../js",
+    "typescript-output-toggle": false,
+    "sass-output-directory": "../css",
+    "sass-output-toggle": true,
+    "less-output-directory": "../css",
+    "less-output-toggle": true,
+    "ignore": ["src/test.js", "*/test.scss", "**/spec/*", "**/src/**/*"],
+  },
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "auto-close-tag.excludedTags": [
+
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+  "compile-hero.typescriptx-output-toggle": false,
+  "compile-hero.scss-output-toggle": false
+
+}

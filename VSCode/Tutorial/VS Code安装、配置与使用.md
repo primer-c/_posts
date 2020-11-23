@@ -6,17 +6,17 @@ comments: true
 ---
 ### 1.安装
 
-[[Ubuntu20.04安装VS Code]]()
+[[Ubuntu20.04安装VS Code]](https://web-dolphin.github.io/2020/10/23/Linux/Ubuntu/7.Ubuntu20.04%E5%AE%89%E8%A3%85VS%20Code/)
 
 ### 2.使用
 
 40. User Snippet
 
-[[40. User Snippet]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/40.%20Snippets/)
+[[40. User Snippet]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/40.%20Snippets/)
 
 41. VS Code快速编写HTML代码
 
-[[41. VS Code快速编写HTML代码]]()
+[[41. VS Code快速编写HTML代码]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/41.%20VS%20Code%E5%BF%AB%E9%80%9F%E7%BC%96%E5%86%99HTML%E4%BB%A3%E7%A0%81/)
 
 ### 3.插件配置
 
@@ -24,15 +24,15 @@ comments: true
 
 1. Settings Sync
 
-[[1. Settings Sync]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/1.%20Settings%20Sync/)
+[[1. Settings Sync]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/1.%20Settings%20Sync/)
 
 2. Hero
 
-[[2. VS Code Compile Hero Plugin]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/2.Compile%20Hero%20Plugin/)
+[[2. VS Code Compile Hero Plugin]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/2.Compile%20Hero%20Plugin/)
 
 3. Settings Json
 
-[[3. Settings Json]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/3.%20Settint%20Json/)
+[[3. Settings Json]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/3.%20Settint%20Json/)
 
 4. Path Intellisense
 
@@ -40,31 +40,31 @@ comments: true
 
 5. Prettier - Code formatter
 
-[[5. Prettier]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/5.%20Prettier%20-%20Code%20formatter/)
+[[5. Prettier]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/5.%20Prettier%20-%20Code%20formatter/)
 
 6. Auto Rename/Complete/Close Tagg
 
-[[6. Auto Rename/Complete/Close Tagg]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/6.%20Auto%20Rename%20Complete%20Close%20Tagg/)
+[[6. Auto Rename/Complete/Close Tagg]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/6.%20Auto%20Rename%20Complete%20Close%20Tagg/)
 
 7. Beautify
 
-[[7. Beautify]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/7.%20Beautify/)
+[[7. Beautify]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/7.%20Beautify/)
 
 8. Vscode Icons
 
-[[8. Vscode Icons]]()
+[[8. Vscode Icons]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/8.%20Vscode%20Icons/)
 
 9. Easy Less
 
-[[9. Easy Less]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/9.%20Easy%20Less/)
+[[9. Easy Less]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/9.%20Easy%20Less/)
 
 10. CSS Peek
 
-[[10. CSS Peek]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/10.%20CSS%20Peek/)
+[[10. CSS Peek]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/10.%20CSS%20Peek/)
 
 11. Color Info
 
-[[11. Color Info]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/11.%20Color%20Info/)
+[[11. Color Info]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/11.%20Color%20Info/)
 
 12. Chinese Language Pack
 
@@ -72,11 +72,11 @@ comments: true
 
 13. HTML Boilerplate
 
-[[13. HTML Boilerplate]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/13.%20HTML%20Boilerplate/)
+[[13. HTML Boilerplate]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/13.%20HTML%20Boilerplate/)
 
 14. Icon Fonts
 
-[[14. Icon Fonts]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/14.%20Icon%20Fonts/)
+[[14. Icon Fonts]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/14.%20Icon%20Fonts/)
 
 15. Auto Comment Blocks
 
@@ -96,7 +96,7 @@ comments: true
 
 18. TODO 注释
 
-[[18. TODO 注释]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/18.%20TODO%20%E6%B3%A8%E9%87%8A/)
+[[18. TODO 注释]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/18.%20TODO%20%E6%B3%A8%E9%87%8A/)
 
 19. Js 注释
 
@@ -174,11 +174,11 @@ comments: true
     ```
 27. Faker
 
-[[27. Faker]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/27.%20Faker/)
+[[27. Faker]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/27.%20Faker/)
 
 28.SVG Viewer
 
-[[28.SVG Viewer]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/28.SVG%20Viewer/)
+[[28.SVG Viewer]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/28.SVG%20Viewer/)
 
 29. Regex Previewer
 
@@ -192,15 +192,15 @@ comments: true
 
 30. Change Cas
 
-[[30. Change Cas]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/30.%20Change%20Cas/)
+[[30. Change Cas]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/30.%20Change%20Cas/)
 
 31. Minify
 
-[[31. Minify]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/31.%20Minify/)
+[[31. Minify]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/31.%20Minify/)
 
 32. 给括号添加颜色
 
-[[32. 给括号添加颜色]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/32.%E7%BB%99%E6%8B%AC%E5%8F%B7%E6%B7%BB%E5%8A%A0%E9%A2%9C%E8%89%B2/)
+[[32. 给括号添加颜色]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/32.%E7%BB%99%E6%8B%AC%E5%8F%B7%E6%B7%BB%E5%8A%A0%E9%A2%9C%E8%89%B2/)
 
 33. Git 日至查询
 
@@ -212,7 +212,7 @@ comments: true
 
 34. Quokka
 
-[[34. Quokka]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/34.%20Quokka/)
+[[34. Quokka]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/34.%20Quokka/)
 
 35. ESlint 
 
@@ -224,7 +224,7 @@ comments: true
 
 36. ES6 快速提示
 
-[[36. ES6 快速提示]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/36.%20ES6%20%E5%BF%AB%E9%80%9F%E6%8F%90%E7%A4%BA/)
+[[36. ES6 快速提示]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/36.%20ES6%20%E5%BF%AB%E9%80%9F%E6%8F%90%E7%A4%BA/)
 
 37. Markdown
 
@@ -244,7 +244,7 @@ comments: true
 
 39. Browser Previews
 
-[[39. Browser Previews]](https://web-oyster.github.io/2020/10/23/VSCode/Tags/39.%20Browser%20Previews/)
+[[39. Browser Previews]](https://web-dolphin.github.io/2020/10/23/VSCode/Tags/39.%20Browser%20Previews/)
 
 ### 4. 参考文档
 
