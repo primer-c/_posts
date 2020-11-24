@@ -74,4 +74,4 @@ title: 二、JavaScript 语言核心
 
 ##### 18. 联系方式
 
-[[Email]](yuanmin8888@outlook.com)
+Email：yuanmin8888@outlook.com
