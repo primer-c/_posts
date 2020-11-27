@@ -1,0 +1,8 @@
+{
+  "compile-hero.less-output-directory": "../css",
+  "compile-hero.scss-output-directory": "../css",
+  "compile-hero.typescript-output-directory": "../js",
+  "compile-hero.typescriptx-output-directory": "../js",
+  "compile-hero.javascript-output-directory": "./js",
+  "compile-hero.sass-output-directory": "../css"
+}
