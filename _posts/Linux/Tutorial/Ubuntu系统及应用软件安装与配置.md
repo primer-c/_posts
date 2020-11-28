@@ -62,13 +62,9 @@ comments: true
 
 [[14. Ubuntu20.04 tar.xz 包方式安装 Node]](https://www.jianshu.com/p/50fb7228238b)
 
-#### 15.Ubuntu20.04安装wechat
+#### 15. Ubuntu20.04安装Deepin-wine-for-ubuntu
 
-[[15.Ubuntu20.04安装wechat]](https://web-dolphin.github.io/2020/10/28/Linux/Ubuntu/15.Ubuntu20.04%E5%AE%89%E8%A3%85wechat/)
-
-#### 16. Ubuntu20.04安装Deepin-wine-for-ubuntu
-
-[[16. Ubuntu20.04安装Deepin-wine-for-ubuntu]](https://github.com/seniusen/deepin-wine-ubuntu)
+[[15. Ubuntu20.04安装Deepin-wine-for-ubuntu]](https://github.com/seniusen/deepin-wine-ubuntu)
 
 #### 6. 参考文档
 
